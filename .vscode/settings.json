@@ -1,0 +1,5 @@
+{
+	"fileCreationHelpers.rootNamespace": "JSV",
+	"fileCreationHelpers.addContextMenuItems": true,
+	"intelephense.diagnostics.undefinedTypes": false
+}

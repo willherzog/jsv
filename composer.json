@@ -1,0 +1,15 @@
+{
+	"name": "willherzog/jsv",
+	"description": "JSV a.k.a. JavaScript Value filter: Output ECMAScript format of input value.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+		"php": "^8.2",
+		"twig/twig": "^3.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "JSV\\": "src/"
+        }
+    }
+}
