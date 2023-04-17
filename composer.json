@@ -3,6 +3,13 @@
 	"description": "JSV a.k.a. JavaScript Value filter: Output ECMAScript format of input value.",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Will Herzog",
+            "email": "willherzog@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
 		"php": "^8.2",
 		"twig/twig": "^3.0"
