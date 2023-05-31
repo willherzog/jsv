@@ -12,7 +12,9 @@ class JavascriptUtil
 
 	static protected function handleNonScalarValue(mixed $value, bool $castObjectToString): string
 	{
-		if( \is_array($value) && \array_is_list($value) ) {
+		if( $value instanceof \UnitEnum ) {
+			return static::getCompatibleValueForOutput($value->value, $castObjectToString);
+		} elseif( \is_array($value) && \array_is_list($value) ) {
 			$array = $value;
 			$values = [];
 
