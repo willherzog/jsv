@@ -1,5 +1,5 @@
 # JSV
-JavaScript Value filter: Output ECMAScript format of input value.
+JavaScript Value filter for the Twig templating engine: Output the ECMAScript format of the PHP input value.
 ## Usage
 ```
 {# templates/example.html.twig #}

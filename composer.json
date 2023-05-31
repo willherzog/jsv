@@ -1,6 +1,6 @@
 {
 	"name": "willherzog/jsv",
-	"description": "JSV a.k.a. JavaScript Value filter: Output ECMAScript format of input value.",
+	"description": "JSV a.k.a. JavaScript Value filter for Twig: Output ECMAScript format of PHP input value.",
     "type": "library",
     "license": "MIT",
     "authors": [
